@@ -1,0 +1,24 @@
+{
+  "name": "node-iostat",
+  "version": "0.0.1",
+  "description": "iostat metrics output for graphite",
+  "main": "iostat.js",
+  "scripts": {
+    "test": "./iostat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixie79/node-iostat.git"
+  },
+  "keywords": [
+    "graphite",
+    "sensu",
+    "iostat"
+  ],
+  "author": "Mark Olliver",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+  "dependencies": {
+    "node-getopt": "~0.2.1"
+  }
+}
